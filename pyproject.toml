@@ -15,6 +15,10 @@ dependencies = [
     "torch"
 ]
 
+[project.urls]
+Source = "https://github.com/fuying-wang/fairseq-signals/"
+
+
 [tool.setuptools.packages.find]
 where = ["src"]    # list of folders that contain the packages (["."] by default)
 include = ["src"]  # package names should match these glob patterns (["*"] by default)
