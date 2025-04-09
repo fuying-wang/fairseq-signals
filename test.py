@@ -25,5 +25,5 @@ ecg_encoder = Wav2Vec2CMSCModel(cfg)
 print(ecg_encoder)
 
 ecg = torch.randn(1, 12, 5000)
-out = ecg_encoder(source=ecg, mask=False, features_only=True)
+out = ecg_encoder(source=ecg, mask=True, features_only=False)
 print(out)
