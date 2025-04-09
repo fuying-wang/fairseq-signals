@@ -72,3 +72,4 @@ results/
 wandb/
 
 /fairseq_signals/version.py
+__pycache__/
